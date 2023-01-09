@@ -224,6 +224,287 @@ button {
 
 /* article section end */
 
+/* article section start */
+
+.article_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    height: fit-content;
+    background-color: #fff;
+}
+
+.article_title {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+}
+
+.article_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #242424;
+    text-align: center;
+    margin: 0px;
+}
+
+.article_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.box_main {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.image_2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-left: 100px;
+}
+
+
+.articles_text {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #1c1c1c;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.lorem_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #1c1c1c;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+.btn_main {
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+}
+
+.read_bt {
+    width: 170px;
+    float: left;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #813772;
+    padding: 8px 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #a25993;
+}
+
+
+/* article section end */
+
+/* about section start */
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.about_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/about-bg.png);
+    height: 1000px;
+    padding: 90px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+
+}
+
+.about_title {
+    width: 100%;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about_text {
+    width: 70%;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.about_main {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+
+}
+
+.image_5 {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:
+        100px;
+    position: relative;
+    z-index: 1;
+}
+
+/* black shape */
+.about_main::before {
+margin-bottom: 5px;
+    content: '';
+    position: absolute;
+    width: 400px;
+    right: 0px;
+    top: 67px;
+    margin: 0 auto;
+    display: flex;
+    height: 355px;
+    left: -180px;
+    box-shadow: 0 35px 25px -20px rgba(0, 0, 0, 0.2);
+    transform: rotate(-13deg) skewx(-1.2deg);
+
+}
+
+.about_main::after {
+margin-bottom: 5;
+    content: '';
+    background-color:
+
+        #000;
+
+    position: absolute;
+
+    width: 500px;
+
+    right: 0px;
+
+    top: 30px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    height: 440px;
+
+    left: 0;
+
+    clip-path: polygon(0 0px, 80% 3%, 80% 78%, 0% 100%);
+
+    -webkit-box-shadow: 0px 8px 7px 3px rgba(0, 0, 0, 0.31);
+
+    -moz-box-shadow: 0px 8px 7px 3px rgba(0, 0, 0, 0.31);
+
+    box-shadow: 0px 8px 7px 3px rgba(0, 0, 0, 0.31);
+
+}
+
+/* about section end*/
+
+/* contact section start*/
+.contact_section {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    height: auto;
+    padding-bottom: 90px;
+}
+
+.contact_main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.request_text {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.email-bt {
+    color: #292929;
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    padding: 20px;
+    background-color: rgb(136, 136, 136);
+    border: 0px;
+    border-radius: 30px;
+}
+
+input.email-bt::placeholder {
+    color: #292929;
+}
+
+.massage-bt {
+    color: #292929;
+    width: 100%;
+    height: 110px;
+    font-size: 18px;
+    padding: 40px 20px 10px;
+    background-color: #999999;
+    border: 0px;
+    border-radius: 30px;
+}
+
+
+.send_btn {
+    width: 170px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.send_btn a {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 0px;
+    background-color: #813772;
+    border-radius: 10px;
+}
+
+.send_btn a:hover {
+    color: #000;
+    background-color: #af74a4;
+}
+
+/* contact section end*/
+
 /* footer section start*/
 
 .site-footer {
