@@ -373,57 +373,6 @@ button {
     position: relative;
     z-index: 1;
 }
-
-/* black shape */
-.about_main::before {
-margin-bottom: 5px;
-    content: '';
-    position: absolute;
-    width: 400px;
-    right: 0px;
-    top: 67px;
-    margin: 0 auto;
-    display: flex;
-    height: 355px;
-    left: -180px;
-    box-shadow: 0 35px 25px -20px rgba(0, 0, 0, 0.2);
-    transform: rotate(-13deg) skewx(-1.2deg);
-
-}
-
-.about_main::after {
-margin-bottom: 5;
-    content: '';
-    background-color:
-
-        #000;
-
-    position: absolute;
-
-    width: 500px;
-
-    right: 0px;
-
-    top: 30px;
-
-    margin: 0 auto;
-
-    display: flex;
-
-    height: 440px;
-
-    left: 0;
-
-    clip-path: polygon(0 0px, 80% 3%, 80% 78%, 0% 100%);
-
-    -webkit-box-shadow: 0px 8px 7px 3px rgba(0, 0, 0, 0.31);
-
-    -moz-box-shadow: 0px 8px 7px 3px rgba(0, 0, 0, 0.31);
-
-    box-shadow: 0px 8px 7px 3px rgba(0, 0, 0, 0.31);
-
-}
-
 /* about section end*/
 
 /* contact section start*/
@@ -488,7 +437,7 @@ input.email-bt::placeholder {
     margin: 0px auto;
 }
 
-.send_btn a {
+.send_btn button {
     width: 100%;
     float: left;
     color: #ffffff;
@@ -498,12 +447,32 @@ input.email-bt::placeholder {
     border-radius: 10px;
 }
 
-.send_btn a:hover {
+.send_btn button:hover {
     color: #000;
     background-color: #af74a4;
 }
-
 /* contact section end*/
+
+
+/* article section start*/
+.article_title{
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    height: auto;
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;   
+
+}
+.article_main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    color: #000;
+}
+
+/* article section start*/
+
 
 /* footer section start*/
 
